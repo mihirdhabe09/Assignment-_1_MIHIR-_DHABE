@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url("cheyan.jpg");
+}
+.whole
+{
+
+    background-color: white;
+    height: 1100px;
+    width: 800px;
+}
+.photo
+{
+    width: 796px;
+    float: left;
+    color:rgba(255, 255, 255, 0.884) ;
+    background-color:rgb(59, 77, 240);
+    border: solid black;
+
+}
+h1
+{
+    font-size: 33px;
+    color: white;
+}
+.whole .left_container
+{
+    float:left;
+    height: 400px;
+    width: 470px;
+   
+    margin: 10px 3px;
+    background-color: rgb(139, 196, 243);
+}
+
+.whole .right_container
+    {
+        float:left;
+        height: 400px;
+        width: 300px;
+       
+        margin: 10px 3px;
+        text-justify: auto;
+        background-color: rgb(218, 213, 213);
+    }
+.whole .bottomleft
+    {
+        float:left;
+        height: 400px;
+        width: 470px;
+      
+        margin: 10px 4px;
+        background-color: rgb(139, 196, 243);
+       
+    }
+    .whole .bottomright
+    {
+        float:left;
+        height: 400px;
+        width: 300px;
+       
+        margin: 10px 4px;
+        background-color: rgb(218, 213, 213);
+    }   
+img
+{
+    float: left;
+    border-radius: 90%;
+}
+h2
+{
+    background-color: rgb(69, 97, 252);
+    font-size: 28px;
+    margin-left: 15;
+}
+li
+{
+    font-size: 20px;
+    margin-left: 30px;
+}
